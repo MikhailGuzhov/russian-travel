@@ -4,4 +4,77 @@
     min-width: 1100px;
     max-width: 1600px;
     margin: 0 auto;
-    font-family: 'Helvetica Neue', Arial, sans-serif;}
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #2A2C2F;
+    
+}
+
+    .header__logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 48px;
+        margin-bottom: 48px;
+    }
+
+    .header {
+        padding-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: gold;
+    }
+
+
+   .header__text {
+    color: white;
+    margin: 0 48px 0 48px;
+    width: 30px;
+    height: 28px;
+    display: flex;
+    padding-right: 48px;
+    
+   }
+
+.header__text_link{
+    margin-left: 48px;
+}
+
+   .road-map {
+    max-width: 100%;
+    height: 100%;
+    margin: 50px auto;
+    background-color: aqua;
+
+    
+   }
+
+
+   .title {
+    color: white;
+    font-size: 6em;
+    text-align: center;
+    margin: 56px auto 0 auto;
+    width: 100%;
+    max-width: 720px;
+    height: 100%;
+    margin-bottom: 32px;
+   }
+
+   .subtitle {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 32px auto 0 auto;
+    background-color: blueviolet;
+    width: 100%;
+    max-width: 640px;
+    height: 100%;
+    
+   }
+
+   .road-map__image {
+    width: calc(100% - 148px * 2);
+    margin: 0;
+    padding: 56px 148px 0 148px;
+}
+   
