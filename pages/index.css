@@ -1,80 +1,49 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__title/cover__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__text/header__text.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span/intro__span.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__website/place__website.css);
+
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/link_opacity/link_opacity.css);
 
 
-.page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #2A2C2F;
-    
-}
 
-    .header__logo {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 48px;
-        margin-bottom: 48px;
-    }
-
-    .header {
-        padding-top: 28px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        background-color: gold;
-    }
-
-
-   .header__text {
-    color: white;
-    margin: 0 48px 0 48px;
-    width: 30px;
-    height: 28px;
-    display: flex;
-    padding-right: 48px;
-    
-   }
-
-.header__text_link{
-    margin-left: 48px;
-}
-
-   .road-map {
-    max-width: 100%;
-    height: 100%;
-    margin: 50px auto;
-    background-color: aqua;
-
-    
-   }
-
-
-   .title {
-    color: white;
-    font-size: 6em;
-    text-align: center;
-    margin: 56px auto 0 auto;
-    width: 100%;
-    max-width: 720px;
-    height: 100%;
-    margin-bottom: 32px;
-   }
-
-   .subtitle {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    margin: 32px auto 0 auto;
-    background-color: blueviolet;
-    width: 100%;
-    max-width: 640px;
-    height: 100%;
-    
-   }
-
-   .road-map__image {
-    width: calc(100% - 148px * 2);
-    margin: 0;
-    padding: 56px 148px 0 148px;
-}
-   
