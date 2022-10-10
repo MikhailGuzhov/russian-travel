@@ -2,8 +2,6 @@
 @import url(../fonts/inter.css);
 @import url(../blocks/page/page.css);
 
-
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__image/cover__image.css);
@@ -45,7 +43,7 @@
 
 @import url(../blocks/places/places.css);
 
-@import url(../blocks/link_opacity/link_opacity.css);
+@import url(../blocks/link-opacity/link_opacity.css);
 
 
 
