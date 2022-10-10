@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 360px) {
     .place__paragraph {
-        max-width: 320pxpx;
+        max-width: 320px;
         width: 100%;
         margin: auto 16px;
         align-self: center;
