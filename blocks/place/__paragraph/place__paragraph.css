@@ -12,9 +12,7 @@
     
 }
 
-.place__paragraph:nth-of-type(2n) {
-    margin-bottom: 0;
-}
+
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
@@ -22,25 +20,15 @@
         font-size: 16px;
     }
 
-   
-}
+ }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .place__paragraph {
         max-width: 484px;
         width: 100%;
-        margin: 0 auto 26px auto;
         padding-left: 16px;
         padding-right: 16px;
-        align-self: center;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .place__paragraph {
-        max-width: 320px;
-        width: 100%;
-        margin: auto 16px;
+        margin: 0 auto 26px auto;
         align-self: center;
     }
 }
