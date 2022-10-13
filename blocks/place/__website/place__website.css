@@ -4,3 +4,12 @@
     flex-direction: column;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website {
+      padding: 0 16px;
+      background-color: aquamarine;
+      
+    }
+  }
+  

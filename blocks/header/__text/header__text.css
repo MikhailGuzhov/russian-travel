@@ -2,13 +2,15 @@
     color: #FFFFFF;
     display: flex;
     margin: 18px 18px 6px 0;
+    padding-right: 75px;
     
     
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .header__text {
         font-size: 18px;
         line-height: 20px;
+        padding-right: 0;
     }
 }

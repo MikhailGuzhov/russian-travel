@@ -1,6 +1,6 @@
 .place__paragraph {
     
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -14,21 +14,12 @@
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .place__paragraph {
-        max-width: 352px;
-        font-size: 16px;
+      font-size: 16px;
+      line-height: 26px;
+      padding-left: 0;
+      background-color: antiquewhite;
     }
-
- }
-
-@media screen and (max-width: 768px) {
-    .place__paragraph {
-        max-width: 484px;
-        width: 100%;
-        padding-left: 16px;
-        padding-right: 16px;
-        margin: 0 auto 26px auto;
-        align-self: center;
-    }
-}
+  }
+  
