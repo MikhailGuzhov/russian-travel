@@ -8,7 +8,49 @@
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
+    padding-bottom: 15px;
 
 
 }
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+      
+      
+     
+     
+      
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .intro__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        max-width: 320px;
+      
+     
+      
+      
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

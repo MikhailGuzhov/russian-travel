@@ -1,5 +1,6 @@
 .place__link {
     color: #FFFFFF;
+    width: fit-content;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -7,10 +8,4 @@
     line-height: 22px;
     text-decoration-line: underline;
 
-}
-
-@media screen and (max-width: 767px) {
-    .place__link {
-        margin-left: 16px;
-    }
 }

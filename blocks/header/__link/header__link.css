@@ -1,18 +1,28 @@
 .header__link {
-    margin-top: 24px;
+    
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     
+    
+    
 
 }
 
 @media screen and (max-width: 768px) {
-    .header__lang-link {
+    .header__link {
         font-size: 18px;
         line-height: 20px;
-       
+
+        font-weight: 400;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__link {
+   
     }
 }

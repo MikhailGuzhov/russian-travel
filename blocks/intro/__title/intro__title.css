@@ -1,5 +1,6 @@
 .intro__title {
 
+    padding-top:86px;
     margin: 0;
     font-family: 'Inter';
     font-size: 54px;
@@ -13,9 +14,23 @@
 
 @media screen and (max-width: 768px) {
     .intro__title {
-       
+        padding-top:76px;
 
-        
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .intro__title {
+        max-width: 251px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 64px;
+
+
+
 
 
 
