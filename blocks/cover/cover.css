@@ -12,8 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-      text-decoration: none;
-      
+    text-decoration: none;
 }
 
 .cover::before {
@@ -24,15 +23,13 @@
     width: 100%;
     min-height: 740px;
     opacity: 0.1;
-    
 }
 
 .cover:hover::before {
     background: #2A2C2F;
     position: absolute;
     opacity: 0.5;
-  }
-
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -41,7 +38,7 @@
         min-height: 640px;
     }
 
-    .cover__link::before {
+    .cover::before {
         width: 100%;
         min-height: 640px;
     }
@@ -55,7 +52,6 @@
 
     .cover::before {
         min-height: 485px;
-
     }
 }
 

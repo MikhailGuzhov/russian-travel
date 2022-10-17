@@ -6,16 +6,11 @@
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(4, minmax(min-content, max-content));
     column-gap: 40px;
-
 }
 
 .place:last-child {
     margin-bottom: 0;
-  }
-  
-
-
-
+}
 
 @media screen and (max-width: 1024px) {
     .place {
@@ -28,9 +23,7 @@
     .place {
         max-width: 720px;
         column-gap: 28px;
-        margin-bottom: 73px;
-        
-        
+        margin-bottom: 70px;
     }
 }
 
@@ -38,7 +31,9 @@
     .place {
         max-width: 100%;
         grid-template-columns: repeat(1, auto);
-        margin-bottom: 64px;
-        
+        padding: 0;
+        padding-top: 0;
+        margin-bottom: 50px;
+
     }
 }

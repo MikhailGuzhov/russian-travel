@@ -1,0 +1,25 @@
+.lang__links {
+  display: flex;
+  padding: 0;
+  gap: 18px;
+  list-style-type: none;
+  padding-right: 48px;
+  text-decoration: none;
+  padding-top: 46px;
+}
+
+.header__link_active:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .lang__links {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lang__links {
+    padding-top: 30px;
+  }
+}
