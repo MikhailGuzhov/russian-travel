@@ -10,6 +10,12 @@
         min-height: 580px;
     }
 }
+@media screen and (max-width: 1023px) {
+    .lead__image {
+        max-width: 100%;
+        padding: 0;
+           }
+}
 
 @media screen and (max-width: 768px) {
     .lead__image {
