@@ -27,10 +27,8 @@
 
 .cover:hover::before {
     background: #2A2C2F;
-    position: absolute;
     opacity: 0.5;
 }
-
 
 @media screen and (max-width: 1024px) {
     .cover {
@@ -39,7 +37,6 @@
     }
 
     .cover::before {
-        width: 100%;
         min-height: 640px;
     }
 }
@@ -47,11 +44,11 @@
 @media screen and (max-width: 768px) {
     .cover {
         min-height: 480px;
-        margin: 90px auto 88px;
+        margin-bottom: 88px;
     }
 
     .cover::before {
-        min-height: 485px;
+        min-height: 100%;
     }
 }
 
